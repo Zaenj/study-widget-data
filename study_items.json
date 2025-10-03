@@ -1,0 +1,162 @@
+[
+  {
+    "title": "ls",
+    "description": "List directory contents in Unix/Linux.",
+    "category": "command",
+    "example": "ls -la /home/user",
+    "difficulty": "beginner",
+    "tags": ["linux", "filesystem"]
+  },
+  {
+    "title": "cd",
+    "description": "Change the current working directory.",
+    "category": "command",
+    "example": "cd /etc",
+    "difficulty": "beginner",
+    "tags": ["linux", "filesystem"]
+  },
+  {
+    "title": "pwd",
+    "description": "Print the absolute path of the current directory.",
+    "category": "command",
+    "example": "pwd",
+    "difficulty": "beginner",
+    "tags": ["linux", "filesystem"]
+  },
+  {
+    "title": "nmap -sV",
+    "description": "Scan a host to detect services, versions, and open ports.",
+    "category": "tool",
+    "example": "nmap -sV 192.168.1.1",
+    "difficulty": "intermediate",
+    "tags": ["recon", "network", "pentest"]
+  },
+  {
+    "title": "ping",
+    "description": "Send ICMP echo requests to test reachability and measure latency.",
+    "category": "command",
+    "example": "ping 8.8.8.8",
+    "difficulty": "beginner",
+    "tags": ["network", "diagnostic"]
+  },
+  {
+    "title": "traceroute",
+    "description": "Display the route packets take to a host and measure each hop.",
+    "category": "command",
+    "example": "traceroute google.com",
+    "difficulty": "intermediate",
+    "tags": ["network", "diagnostic"]
+  },
+  {
+    "title": "ifconfig / ip addr",
+    "description": "Show or configure network interfaces.",
+    "category": "command",
+    "example": "ip addr show eth0",
+    "difficulty": "intermediate",
+    "tags": ["network", "linux"]
+  },
+  {
+    "title": "netstat -tuln",
+    "description": "Show active network connections and listening ports.",
+    "category": "command",
+    "example": "netstat -tuln",
+    "difficulty": "intermediate",
+    "tags": ["network", "security"]
+  },
+  {
+    "title": "whoami",
+    "description": "Print the username of the current user.",
+    "category": "command",
+    "example": "whoami",
+    "difficulty": "beginner",
+    "tags": ["linux", "user"]
+  },
+  {
+    "title": "sudo",
+    "description": "Execute commands as another user (typically root).",
+    "category": "command",
+    "example": "sudo apt update",
+    "difficulty": "beginner",
+    "tags": ["linux", "privilege"]
+  },
+  {
+    "title": "grep",
+    "description": "Search file contents using patterns (regular expressions).",
+    "category": "command",
+    "example": "grep 'password' /etc/passwd",
+    "difficulty": "intermediate",
+    "tags": ["linux", "search"]
+  },
+  {
+    "title": "chmod",
+    "description": "Change file permissions in Unix/Linux.",
+    "category": "command",
+    "example": "chmod 755 script.sh",
+    "difficulty": "intermediate",
+    "tags": ["linux", "permissions"]
+  },
+  {
+    "title": "hashing",
+    "description": "Transform data into a fixed-length digest (MD5, SHA256) for integrity verification.",
+    "category": "concept",
+    "example": "echo -n 'hello' | sha256sum",
+    "difficulty": "beginner",
+    "tags": ["security", "integrity"]
+  },
+  {
+    "title": "encryption",
+    "description": "Convert plaintext into ciphertext using an algorithm and key.",
+    "category": "concept",
+    "example": "openssl enc -aes-256-cbc -in file.txt -out file.enc",
+    "difficulty": "intermediate",
+    "tags": ["security", "confidentiality"]
+  },
+  {
+    "title": "CIA Triad",
+    "description": "Confidentiality, Integrity, Availability – core principles of cybersecurity.",
+    "category": "concept",
+    "example": "Encryption ensures confidentiality, hashing ensures integrity, backups ensure availability.",
+    "difficulty": "beginner",
+    "tags": ["security", "basics"]
+  },
+  {
+    "title": "SQL Injection",
+    "description": "Exploit where malicious SQL is inserted into queries.",
+    "category": "concept",
+    "example": "SELECT * FROM users WHERE name = '' OR '1'='1';",
+    "difficulty": "advanced",
+    "tags": ["web", "attack"]
+  },
+  {
+    "title": "XSS (Cross-Site Scripting)",
+    "description": "Injection of malicious JavaScript into web pages viewed by others.",
+    "category": "concept",
+    "example": "<script>alert('hacked')</script>",
+    "difficulty": "advanced",
+    "tags": ["web", "attack"]
+  },
+  {
+    "title": "MITM (Man-in-the-Middle)",
+    "description": "Attacker intercepts and modifies communication between two parties.",
+    "category": "concept",
+    "example": "Using ARP spoofing to intercept traffic on LAN.",
+    "difficulty": "advanced",
+    "tags": ["network", "attack"]
+  },
+  {
+    "title": "Firewall",
+    "description": "System that monitors and controls network traffic based on rules.",
+    "category": "tool",
+    "example": "ufw allow 22/tcp",
+    "difficulty": "beginner",
+    "tags": ["security", "network"]
+  },
+  {
+    "title": "HTTP vs HTTPS",
+    "description": "HTTP transmits data in plaintext, HTTPS encrypts using TLS/SSL.",
+    "category": "protocol",
+    "example": "Visit https://example.com instead of http://example.com",
+    "difficulty": "beginner",
+    "tags": ["web", "protocol"]
+  }
+]
